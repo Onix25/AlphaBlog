@@ -72,3 +72,5 @@ group :test do
 end
 
 gem "ruby-lsp", "~> 0.3.7", :group => :development
+
+gem "byebug", "~> 11.1", :groups => [:development, :test]
